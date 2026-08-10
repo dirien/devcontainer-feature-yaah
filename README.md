@@ -18,7 +18,7 @@ Add the following to your `devcontainer.json`:
 
 | Option  | Type   | Default    | Description                                                                                          |
 |---------|--------|------------|------------------------------------------------------------------------------------------------------|
-| `version` | string | `"latest"` | Version of yaah to install (e.g., `0.3.3`). Set to `latest` for the latest release.                 |
+| `version` | string | `"latest"` | Version of yaah to install (e.g., `0.5.0`). Set to `latest` for the latest release.                 |
 | `agent`   | string | `""`       | Agent profile to generate config for (e.g., `claude`, `copilot`, `opencode`, `codex`). Leave empty to skip. |
 
 ### Pin to a specific version with agent config
@@ -27,7 +27,7 @@ Add the following to your `devcontainer.json`:
 {
     "features": {
         "ghcr.io/dirien/devcontainer-feature-yaah/yaah:0": {
-            "version": "0.3.3",
+            "version": "0.5.0",
             "agent": "claude"
         }
     }
